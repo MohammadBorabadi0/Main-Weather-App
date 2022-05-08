@@ -1,10 +1,13 @@
 import React from "react";
 
+// Components
+import WeatherApp from "./components/WeatherApp";
+
 const App = () => {
   return (
-    <div>
-      <h3>App</h3>
-    </div>
+    <>
+      <WeatherApp />
+    </>
   );
 };
 
